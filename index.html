@@ -12,18 +12,19 @@
     <title>Bootstrap Practice</title>
 </head>
 <body>
-    <header>
+    <header class="d-none d-md-block">
         <div class="jumbotron jumbotron-fluid text-center">
             <h1 class="glow">HEADER GOES HERE.</h1>
         </div>
+        <h1 id="number"></h1>
     </header>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-3 order-md-0 order-sm-1 sidebar mr-md-1">
+                <div class="col-12 col-md-3 order-md-0 order-1 sidebar mr-md-1">
                     <h3>Side Bar</h3>
                     <p>Displays on the left for col-md and bottom for col-sm.</p>
                 </div>
-                <div class="col" id="main-col">
+                <div class="col">
                     <div class="row">
                         <div class="col-12 title text-center">
                             <h3>Title Goes Here.</h3>
@@ -39,6 +40,7 @@
                             <h5 style="color: red">*** THE IMAGES BELOW ARE ADDED USING JAVASCRIPT ***</h5>
                         </div>
                     </div>
+                    <div id="main-col"></div>
                 </div>
             </div>
         </div>
