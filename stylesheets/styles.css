@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=Lobster&display=swap');
+
+body {
+    background: #DAE2F8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container-fluid {
+    border: 3px solid red;
+    background-color: white;
+}
+
+.footer {
+    height: 15%;
+    max-height: 15%;
+    border-top: 1px solid black;
+    background-color: coral;
+    padding: 1%
+}
+
+.glow {
+    font-size: 75px;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.items {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    /* margin: 1px; */
+    flex-wrap: wrap;
+}
+
+.jumbotron {
+    background-image: url("https://photographycourse.net/wp-content/uploads/2014/11/Landscape-Photography-steps.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sidebar {
+    border: 1.5px solid black;
+    background-color: peachpuff;
+}
+
+.title {
+    background-color: lightseagreen
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }

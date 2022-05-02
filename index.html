@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+
+    <title>Bootstrap Practice</title>
+</head>
+<body>
+    <header>
+        <div class="jumbotron jumbotron-fluid text-center">
+            <h1 class="glow">HEADER GOES HERE.</h1>
+        </div>
+    </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 order-md-0 order-sm-1 sidebar mr-md-1">
+                    <h3>Side Bar</h3>
+                    <p>Displays on the left for col-md and bottom for col-sm.</p>
+                </div>
+                <div class="col" id="main-col">
+                    <div class="row">
+                        <div class="col-12 title text-center">
+                            <h3>Title Goes Here.</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-12 col-sm-4 items"><img src="https://picsum.photos/500?random=1" height="100%" width="100%" /></div>
+                        <div class="col col-12 col-sm-4 items"><img src="https://picsum.photos/500?random=2" height="100%" width="100%" /></div>
+                        <div class="col col-12 col-sm-4 items"><img src="https://picsum.photos/500?random=3" height="100%" width="100%" /></div>
+                    </div>
+                    <div class="row d-md-block d-sm-none text-center" style="background-color: transparent; margin: 0; padding: 0">
+                        <div class="col col-12">
+                            <h5 style="color: red">*** THE IMAGES BELOW ARE ADDED USING JAVASCRIPT ***</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <footer>
+        <div class="row text-center">
+            <div class="col col-12">
+                <h1>FOOTER INFORMATION GOES HERE.</h1>
+            </div>
+        </div>
+    </footer>
+    <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
